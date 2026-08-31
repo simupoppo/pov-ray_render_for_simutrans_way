@@ -90,7 +90,7 @@ class povray_template():
             f.write('\torthographic\n')
             f.write('\tlocation <100,81.64965809277,100>*number_hight*paksize\n')
             f.write('\tlook_at <0,0.5,0>*paksize/128\n')
-            f.write('\tright<1,0,-1> *paksize*number_width*4\n')
+            f.write('\tright<1,0,-1> *paksize*number_width*2\n')
             f.write('\tup<1,0,1>  *paksize*number_hight/2\n')
             f.write('\t}\n')
             f.write('\n')
